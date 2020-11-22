@@ -1,4 +1,4 @@
-import { addCidade, listCidade, findCidade, deleteCidade, editCidade } from "../model/cidadeModel";
+import { addCidade, listCidade, findCidade, deleteCidade, editCidade } from "../model/cidademodel";
 
 export function newCidade(req, res) {
     addCidade(req.body.name)

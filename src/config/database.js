@@ -5,6 +5,7 @@ const connection = MySQL.createPool({
     user: "root",
     password: "123",
     database: "dashboard",
+    connectionLimit: 10
 });
 
 export default connection;

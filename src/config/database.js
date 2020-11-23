@@ -5,11 +5,11 @@ const connection = MySQL.createPool({
     //user: "root",
     //password: "123",
     //database: "dashboard",
-    host: 'localhost',
+    host: '104.154.120.184',
     port: 3306,
-    user: 'life',
-    password: 'life123',
-    database: "camera_dashboard",
+    user: 'root',
+    password: '123',
+    database: "dashboard",
     connectionLimit: 10
 });
 

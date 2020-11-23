@@ -1,11 +1,10 @@
 import MySQL from "mysql";
 
 const connection = MySQL.createPool({
-    host: "localhost",
-    user: "life",
-    password: "life123",
-    database: "camera_dashboard",
-    connectionLimit: 10
+    host: "104.154.120.184",
+    user: "root",
+    password: "123",
+    database: "dashboard",
 });
 
 export default connection;

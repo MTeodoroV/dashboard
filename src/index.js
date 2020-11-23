@@ -22,6 +22,5 @@ app.use("/cidade", cidade);
 app.use("/camera", camera);
 app.use("/endereco", endereco);
 app.use("/projeto", projeto);
-app.use("/", user)
 
 app.listen(80);
